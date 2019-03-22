@@ -282,8 +282,7 @@ compress_html:
 
 # Defaults
 defaults:
-header:
-  image: /assets/images/nacho-rochon-517487-unsplash.jpg
+
   # _posts
   - scope:
       path: ""
