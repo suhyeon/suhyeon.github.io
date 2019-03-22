@@ -15,7 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "쪼튜브의 성장기"
 title_separator          : "-"
 name                     : "쪼튜브"
@@ -38,7 +38,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -289,7 +289,7 @@ header:
       path: ""
       type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: true
       read_time: true
       comments: # true
